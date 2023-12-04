@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:
+    radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+    radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+    linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+    background-color: slategray;
+    background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;   
+}
+
+.container{
+    width: 50vw;
+    height: 55vh;
+    margin-top: 12%;
+    margin-left: 25%;
+    
+    font-family: "Press Start 2P", cursive;
+    font-size: 10px;
+    letter-spacing: 0.8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;   
+}
+
+img{
+    width: 3.2rem;
+    height: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+
+label{
+    margin-bottom: 0.2rem;
+}
+
+#btnClassificador{
+    font-family: "Press Start 2P", cursive;
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    padding: 5px;
+    background-color: #c3ccd6;
+    cursor: pointer;
+}
+
+#btnClassificador:hover{
+    background-color: #A8B1BB; 
+    font-size: 10.5px;
+    box-shadow: 5px 5px 10px;
+}
+
+p{
+    color: rgb(38, 38, 97);
+}

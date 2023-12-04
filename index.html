@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de nível de herói</title>
+    
+    <link rel="stylesheet" href="src/style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="/src/cat.png" alt="gato com tampão de pirata estilo pixel">
+        <h1>Classificador de nível de herói</h1>
+        <br><br>
+        <label>Informe o nome do herói</label>
+        <input type="text" placeholder="Nome do herói" id="nomeHeroi">
+        <br><br>
+        <label>Informe a quantidade de experiência </label>
+        <input type="text" placeholder="Quantidade de xp" id="xpHeroi">
+        <br><br>
+        <button onclick="classificar()" id="btnClassificador">Classificação</button>
+        <br>
+        <div>
+            <p id="resultadoClassificacao"></p>
+        </div>
+    </div>
+
+    <script src="src/main.js"></script>
+</body>
+</html>
